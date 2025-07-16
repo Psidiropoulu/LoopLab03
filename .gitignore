@@ -1,0 +1,40 @@
+# Exclude build artifacts and caches
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+
+# Exclude compiled binaries
+Binaries/
+*.exe
+*.dll
+*.pdb
+*.app
+*.dSYM
+
+# Exclude Visual Studio project files
+.vscode/
+.vs/
+*.VC.db
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+*.log
+*.user
+*.sln
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Unreal crash report files
+*.dmp
+*.dump
+
+# Ignore backups
+*.bak
+*.tmp
